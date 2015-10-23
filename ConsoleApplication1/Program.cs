@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Task.Delay(5000); // give it time for website to fire
+            Task.Delay(5000); // give it time for website to fireup
 
             RunAsync().Wait();
 
